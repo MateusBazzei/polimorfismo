@@ -14,6 +14,19 @@ public class Polimorfismo {
     
     public static void main(String[] args) {
         
+        /*
+        //polimorfismo de sobrecarga
+        calculadora calc = new calculadora();
+        System.out.println(calc.somar(2, 3, 4));
+        */
+        
+        gato gato = new gato();
+        cachorro cachorro = new cachorro();
+        pato pato = new pato();
+        
+        gato.comunicar();
+        cachorro.comunicar();
+        pato.comunicar();
     }
     
 }
